@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeviceDriver", "DeviceDriver\DeviceDriver.vcxproj", "{BBCB6BD5-807F-4B4D-A1E4-542ECDE72B54}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DriverTest", "DriverTest\DriverTest.vcxproj", "{3089087B-4B55-4B5C-9069-B310B2CB6FDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{3E33AF61-0F35-4725-95BE-8F3E93351C7D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBCB6BD5-807F-4B4D-A1E4-542ECDE72B54}.Debug|x64.ActiveCfg = Debug|x64
+		{BBCB6BD5-807F-4B4D-A1E4-542ECDE72B54}.Debug|x64.Build.0 = Debug|x64
+		{BBCB6BD5-807F-4B4D-A1E4-542ECDE72B54}.Debug|x86.ActiveCfg = Debug|Win32
+		{BBCB6BD5-807F-4B4D-A1E4-542ECDE72B54}.Debug|x86.Build.0 = Debug|Win32
+		{BBCB6BD5-807F-4B4D-A1E4-542ECDE72B54}.Release|x64.ActiveCfg = Release|x64
+		{BBCB6BD5-807F-4B4D-A1E4-542ECDE72B54}.Release|x64.Build.0 = Release|x64
+		{BBCB6BD5-807F-4B4D-A1E4-542ECDE72B54}.Release|x86.ActiveCfg = Release|Win32
+		{BBCB6BD5-807F-4B4D-A1E4-542ECDE72B54}.Release|x86.Build.0 = Release|Win32
+		{3089087B-4B55-4B5C-9069-B310B2CB6FDC}.Debug|x64.ActiveCfg = Debug|x64
+		{3089087B-4B55-4B5C-9069-B310B2CB6FDC}.Debug|x64.Build.0 = Debug|x64
+		{3089087B-4B55-4B5C-9069-B310B2CB6FDC}.Debug|x86.ActiveCfg = Debug|Win32
+		{3089087B-4B55-4B5C-9069-B310B2CB6FDC}.Debug|x86.Build.0 = Debug|Win32
+		{3089087B-4B55-4B5C-9069-B310B2CB6FDC}.Release|x64.ActiveCfg = Release|x64
+		{3089087B-4B55-4B5C-9069-B310B2CB6FDC}.Release|x64.Build.0 = Release|x64
+		{3089087B-4B55-4B5C-9069-B310B2CB6FDC}.Release|x86.ActiveCfg = Release|Win32
+		{3089087B-4B55-4B5C-9069-B310B2CB6FDC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0545DE0F-8062-4379-B485-131BB89DFB89}
+	EndGlobalSection
+EndGlobal
